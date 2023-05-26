@@ -1,0 +1,26 @@
+@import '../../styles/general.scss';
+
+#send-trx-form {
+    box-sizing: border-box;
+    width: 100%;
+    max-width: 500px;
+    margin: auto;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-items: center;
+    gap: 25px;
+    label {
+        margin-bottom: -20px;
+        text-align: left;
+        padding-left: 10px;
+    }
+    input {
+        height: 50px;
+        padding: 0 15px;
+    }
+    span {
+        color: red;
+        margin-top: -20px;
+    }
+}

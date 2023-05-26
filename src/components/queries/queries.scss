@@ -1,0 +1,14 @@
+@import '../../styles/general.scss';
+
+#queries-container {
+    box-sizing: border-box;
+    width: 100%;
+    max-width: 500px;
+    margin: auto;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-items: center;
+    gap: 25px;
+    
+}
