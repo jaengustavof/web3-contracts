@@ -25,7 +25,7 @@ const Queries = () => {
         new web3.providers.HttpProvider('https://sepolia.infura.io/v3/d09825f256ae4705a74fdee006040903')
     );
 
-    let contractAddress = "0x996adfFEfD5BA71c484D5e56330E5B265108C877"; //Change the address of the deployed contract
+    let contractAddress = "0x88CdDf322037d8d7bd013E478aCDf23A19081d6e"; //Change the address of the deployed contract
     let contract = new web3.eth.Contract(ABI.default, contractAddress);
 
     const showBalance = async (contract, selected) => {
